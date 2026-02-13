@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ChevronLeft, ChevronRight, Brain, FlaskConical, Activity, TestTube, Microscope, Leaf, Flower, ShieldCheck, Zap, Beaker, BarChart, FileText, Stethoscope, Database, Smartphone, Box, CheckCircle2, Building2, Globe } from 'lucide-react';
-import StudyFilterSection from '../components/StudyFilterSection';
-import { fetchCapabilities, fetchFacilities, fetchCertifications, fetchPartners, fetchHomeSettings } from '../api';
+import StudyFilterSection from '@/components/StudyFilterSection';
+import { fetchCapabilities, fetchFacilities, fetchCertifications, fetchPartners, fetchHomeSettings } from '@/api';
 
 const slides = [
     {

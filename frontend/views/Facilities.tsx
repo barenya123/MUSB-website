@@ -4,7 +4,7 @@ import {
     ChevronDown, ChevronUp, FileText, Activity, Layers, Database
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { fetchFacilitiesPageData, submitSponsorInquiry } from '../api';
+import { fetchFacilitiesPageData, submitSponsorInquiry } from '@/api';
 
 export default function Facilities() {
     const [data, setData] = useState<any>(null);

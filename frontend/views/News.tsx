@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-import { fetchNews, subscribeNewsletter } from '../api';
-import { NewsItem, NewsType } from '../types';
+import { fetchNews, subscribeNewsletter } from '@/api';
+import { NewsItem, NewsType } from '@/types';
 
 const categories: (NewsType | 'All')[] = [
     'All',

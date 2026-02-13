@@ -24,7 +24,7 @@ import {
     HandCoins
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { fetchStudies, submitContactForm } from '../api';
+import { fetchStudies, submitContactForm } from '@/api';
 
 export default function Trials() {
     const [selectedCondition, setSelectedCondition] = useState('All');

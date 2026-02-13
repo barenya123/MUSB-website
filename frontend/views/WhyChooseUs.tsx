@@ -5,7 +5,7 @@ import {
     FlaskConical, Beaker, ShieldCheck, Zap, Target, Users, RefreshCcw, Lightbulb,
     Globe, Award, BookOpen, Layers, CheckCircle2, Sparkles, Eye, Heart
 } from 'lucide-react';
-import { fetchAboutSettings } from '../api';
+import { fetchAboutSettings } from '@/api';
 
 // Icon lookup map for dynamic rendering from backend data
 const iconMap: Record<string, React.ElementType> = {

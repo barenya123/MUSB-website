@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { fetchCapabilities } from '../api';
+import { fetchCapabilities } from '@/api';
 import {
   Activity,
   TestTube,

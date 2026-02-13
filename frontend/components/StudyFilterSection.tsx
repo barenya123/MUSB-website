@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, ChevronDown, ArrowRight, Clock } from 'lucide-react';
-import { Condition } from '../types';
-import { fetchStudies } from '../api';
+import { Condition } from '@/types';
+import { fetchStudies } from '@/api';
 
 const conditions: Condition[] = ['Gut', 'Brain', 'Metabolic', 'Aging', 'Women’s Health', 'Cancer Support'];
 

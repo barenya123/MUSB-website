@@ -10,8 +10,8 @@ import {
     Calendar,
     ArrowRight
 } from 'lucide-react';
-import { fetchJobOpenings } from '../api';
-import { JobOpening } from '../types';
+import { fetchJobOpenings } from '@/api';
+import { JobOpening } from '@/types';
 
 export default function JobDetail() {
     const { id } = useParams<{ id: string }>();

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Linkedin, ChevronDown, ChevronUp, Building2, Users, Stethoscope, Briefcase, Handshake } from 'lucide-react';
-import { fetchTeamMembers, fetchAdvisors, fetchCollaborators, fetchStaffMembers, fetchPartners } from '../api';
+import { fetchTeamMembers, fetchAdvisors, fetchCollaborators, fetchStaffMembers, fetchPartners } from '@/api';
 
 export default function Team() {
     const [expandedBios, setExpandedBios] = useState<{ [key: string]: boolean }>({});

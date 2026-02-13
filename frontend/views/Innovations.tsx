@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Sparkles, CheckCircle2, Zap, TrendingUp, FlaskConical, Shield, ArrowRight, Target, FileText, BookOpen, Newspaper, Paperclip, Mail } from 'lucide-react';
 
 import { useState, useEffect } from 'react';
-import { fetchTechnologies } from '../api';
+import { fetchTechnologies } from '@/api';
 
 const defaultTechnologies = [
     {

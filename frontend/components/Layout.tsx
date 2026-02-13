@@ -1,7 +1,7 @@
 import React, { ReactNode, useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ArrowRight, Linkedin, Mail, MapPin, Phone, ChevronDown, Youtube, Facebook, Instagram, Send, Loader2, CheckCircle2 } from 'lucide-react';
-import { subscribeNewsletter } from '../api';
+import { subscribeNewsletter } from '@/api';
 
 interface LayoutProps {
     children: ReactNode;

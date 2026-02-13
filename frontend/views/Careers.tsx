@@ -23,8 +23,8 @@ import {
     SearchX
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { fetchJobOpenings, fetchCareerCategories } from '../api';
-import { JobOpening, CareerCategory } from '../types';
+import { fetchJobOpenings, fetchCareerCategories } from '@/api';
+import { JobOpening, CareerCategory } from '@/types';
 
 const hiringProcess = [
     {

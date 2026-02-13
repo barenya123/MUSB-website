@@ -17,7 +17,7 @@ import {
     MessageCircle
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { submitContactForm, fetchInquiryTypes } from '../api';
+import { submitContactForm, fetchInquiryTypes } from '@/api';
 
 const defaultInquiryTypes = [
     { value: 'business', label: 'Business / Sponsorship' },
