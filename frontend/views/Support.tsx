@@ -187,11 +187,11 @@ const Support: React.FC = () => {
                         </div>
 
                         {/* Enhanced Grid Container with Section Outline */}
-                        <div className="p-10 md:p-16 rounded-[4.5rem] bg-slate-900/40 border border-white/5 backdrop-blur-3xl relative overflow-hidden group/container">
+                        <div className="p-6 md:p-16 rounded-[4.5rem] bg-slate-900/40 border border-white/5 backdrop-blur-3xl relative overflow-hidden group/container">
                             <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-cyan-500/5 blur-[120px] rounded-full"></div>
 
                             <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 relative z-10">
-                                <div className="group relative bg-slate-950/50 backdrop-blur-xl rounded-[4rem] p-12 border border-white/5 hover:bg-slate-900 hover:border-cyan-500/30 transition-all duration-700 flex flex-col shadow-2xl overflow-hidden">
+                                <div className="group relative bg-slate-950/50 backdrop-blur-xl rounded-[4rem] p-8 md:p-12 border border-white/5 hover:bg-slate-900 hover:border-cyan-500/30 transition-all duration-700 flex flex-col shadow-2xl overflow-hidden">
                                     <div className="absolute -inset-1 bg-gradient-to-tr from-cyan-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                                     <div className="w-20 h-20 mb-10 rounded-3xl bg-cyan-400 flex items-center justify-center text-slate-900 transition-all duration-500 shadow-xl relative z-10">
                                         <FlaskConical className="w-10 h-10" />
@@ -221,7 +221,7 @@ const Support: React.FC = () => {
                                 </div>
 
                                 {/* Card 2: Central Laboratory Services */}
-                                <div className="group relative bg-slate-950/50 backdrop-blur-xl rounded-[4rem] p-12 border border-white/5 hover:bg-slate-900 hover:border-cyan-500/30 transition-all duration-700 flex flex-col shadow-2xl overflow-hidden relative z-10">
+                                <div className="group relative bg-slate-950/50 backdrop-blur-xl rounded-[4rem] p-8 md:p-12 border border-white/5 hover:bg-slate-900 hover:border-cyan-500/30 transition-all duration-700 flex flex-col shadow-2xl overflow-hidden relative z-10">
                                     <div className="absolute -inset-1 bg-gradient-to-tr from-cyan-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                                     <div className="w-20 h-20 mb-10 rounded-3xl bg-cyan-400 flex items-center justify-center text-slate-900 transition-all duration-500 shadow-xl relative z-10">
                                         <Microscope className="w-10 h-10" />
@@ -251,7 +251,7 @@ const Support: React.FC = () => {
                                 </div>
 
                                 {/* Card 3: Biorepository */}
-                                <div className="group relative bg-slate-950/50 backdrop-blur-xl rounded-[4rem] p-12 border border-white/5 hover:bg-slate-900 hover:border-cyan-500/30 transition-all duration-700 flex flex-col shadow-2xl overflow-hidden relative z-10">
+                                <div className="group relative bg-slate-950/50 backdrop-blur-xl rounded-[4rem] p-8 md:p-12 border border-white/5 hover:bg-slate-900 hover:border-cyan-500/30 transition-all duration-700 flex flex-col shadow-2xl overflow-hidden relative z-10">
                                     <div className="absolute -inset-1 bg-gradient-to-tr from-cyan-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                                     <div className="w-20 h-20 mb-10 rounded-3xl bg-cyan-400 flex items-center justify-center text-slate-900 transition-all duration-500 shadow-xl relative z-10">
                                         <Database className="w-10 h-10" />
@@ -295,7 +295,7 @@ const Support: React.FC = () => {
                         </div>
 
                         {/* Enhanced Grid Container with Section Outline */}
-                        <div className="p-10 md:p-16 rounded-[4.5rem] bg-slate-900/40 border border-white/5 backdrop-blur-3xl relative overflow-hidden group/container">
+                        <div className="p-6 md:p-16 rounded-[4.5rem] bg-slate-900/40 border border-white/5 backdrop-blur-3xl relative overflow-hidden group/container">
                             <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-cyan-500/5 blur-[120px] rounded-full"></div>
 
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 relative z-10">
@@ -316,7 +316,7 @@ const Support: React.FC = () => {
                                     { name: "Toxicology", icon: FlaskConical },
                                     { name: "Bioavailability", icon: Layers }
                                 ].map((domain, i) => (
-                                    <div key={i} className="group p-10 rounded-[2.5rem] bg-slate-950/50 border border-white/5 hover:bg-slate-900 hover:border-cyan-500/30 transition-all duration-500 text-center flex flex-col items-center gap-6 shadow-2xl relative overflow-hidden">
+                                    <div key={i} className="group p-6 md:p-10 rounded-[2.5rem] bg-slate-950/50 border border-white/5 hover:bg-slate-900 hover:border-cyan-500/30 transition-all duration-500 text-center flex flex-col items-center gap-6 shadow-2xl relative overflow-hidden">
                                         <div className="absolute -inset-1 bg-gradient-to-tr from-cyan-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                                         <div className="w-14 h-14 rounded-2xl bg-cyan-400 flex items-center justify-center text-slate-900 shadow-[0_0_20px_rgba(6,182,212,0.4)] group-hover:scale-110 transition-transform duration-500 relative z-10">
                                             <domain.icon className="w-7 h-7" />
@@ -358,10 +358,10 @@ const Support: React.FC = () => {
                                 { title: "Multi-Year Biospecimen Security", tag: "Biorepository", desc: "Managed 50,000+ aliquots with 100% chain-of-custody integrity for aging studies." }
                             ].map((story, i) => (
                                 <div key={i} className="group relative bg-white/5 backdrop-blur-xl rounded-[3rem] overflow-hidden border border-white/5 hover:border-cyan-500/30 transition-all duration-500 flex flex-col">
-                                    <div className="aspect-video bg-slate-800/50 flex items-center justify-center p-12">
+                                    <div className="aspect-video bg-slate-800/50 flex items-center justify-center p-8 md:p-12">
                                         <Database className="w-16 h-16 text-slate-700 group-hover:text-cyan-400/30 transition-colors" />
                                     </div>
-                                    <div className="p-10 space-y-6 flex-grow">
+                                    <div className="p-6 md:p-10 space-y-6 flex-grow">
                                         <span className="px-4 py-2 rounded-xl bg-cyan-500/10 text-cyan-400 text-[10px] font-black uppercase tracking-widest">{story.tag}</span>
                                         <h3 className="text-2xl font-black text-white leading-tight">{story.title}</h3>
                                         <p className="text-slate-400 font-medium leading-relaxed">{story.desc}</p>

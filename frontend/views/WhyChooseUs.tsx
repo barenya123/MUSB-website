@@ -179,7 +179,7 @@ export default function WhyChooseUs() {
                                     const colors = colorMap[card.color] || colorMap.cyan;
                                     const IconComp = getIcon(card.icon);
                                     return (
-                                        <div key={idx} className="group relative bg-white/5 backdrop-blur-xl rounded-[4rem] p-12 border border-white/5 hover:bg-white/10 hover:border-cyan-500/30 transition-all duration-700 flex flex-col">
+                                        <div key={idx} className="group relative bg-white/5 backdrop-blur-xl rounded-[4rem] p-8 md:p-12 border border-white/5 hover:bg-white/10 hover:border-cyan-500/30 transition-all duration-700 flex flex-col">
                                             <div className={`w-20 h-20 mb-10 rounded-3xl ${colors.bg} flex items-center justify-center ${colors.accent} group-hover:bg-cyan-500 group-hover:text-slate-900 transition-all duration-500 shadow-xl`}>
                                                 <IconComp className="w-10 h-10" />
                                             </div>
@@ -308,7 +308,7 @@ export default function WhyChooseUs() {
                         <div className="max-w-[1400px] mx-auto px-4 md:px-12">
                             <div className="grid md:grid-cols-2 gap-12">
                                 {/* Mission */}
-                                <div className="p-16 rounded-[4rem] bg-gradient-to-br from-cyan-500/10 via-slate-900/50 to-transparent border border-white/5 backdrop-blur-3xl space-y-8 group hover:border-cyan-500/30 transition-all duration-700 relative overflow-hidden">
+                                <div className="p-8 md:p-16 rounded-[4rem] bg-gradient-to-br from-cyan-500/10 via-slate-900/50 to-transparent border border-white/5 backdrop-blur-3xl space-y-8 group hover:border-cyan-500/30 transition-all duration-700 relative overflow-hidden">
                                     <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 blur-[80px] rounded-full group-hover:bg-cyan-500/10 transition-colors"></div>
                                     <div className="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500 group-hover:text-slate-900 transition-all duration-500">
                                         <Target className="w-8 h-8" />
@@ -317,7 +317,7 @@ export default function WhyChooseUs() {
                                     <p className="text-lg text-slate-400 font-medium leading-relaxed">{missionContent}</p>
                                 </div>
                                 {/* Vision */}
-                                <div className="p-16 rounded-[4rem] bg-gradient-to-br from-indigo-500/10 via-slate-900/50 to-transparent border border-white/5 backdrop-blur-3xl space-y-8 group hover:border-indigo-500/30 transition-all duration-700 relative overflow-hidden">
+                                <div className="p-8 md:p-16 rounded-[4rem] bg-gradient-to-br from-indigo-500/10 via-slate-900/50 to-transparent border border-white/5 backdrop-blur-3xl space-y-8 group hover:border-indigo-500/30 transition-all duration-700 relative overflow-hidden">
                                     <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/5 blur-[80px] rounded-full group-hover:bg-indigo-500/10 transition-colors"></div>
                                     <div className="w-16 h-16 rounded-2xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 group-hover:bg-indigo-500 group-hover:text-slate-900 transition-all duration-500">
                                         <Eye className="w-8 h-8" />

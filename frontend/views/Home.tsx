@@ -202,7 +202,7 @@ export default function Home() {
 
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
                             {/* 1. Research & Innovation */}
-                            <div className="group relative bg-white/5 backdrop-blur-xl rounded-[4rem] p-12 border border-white/5 hover:bg-white/10 hover:border-cyan-500/30 transition-all duration-700 flex flex-col">
+                            <div className="group relative bg-white/5 backdrop-blur-xl rounded-[4rem] p-8 md:p-12 border border-white/5 hover:bg-white/10 hover:border-cyan-500/30 transition-all duration-700 flex flex-col">
                                 <div className="w-20 h-20 mb-10 rounded-3xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500 group-hover:text-slate-900 transition-all duration-500 shadow-xl">
                                     <FlaskConical className="w-10 h-10" />
                                 </div>
@@ -241,7 +241,7 @@ export default function Home() {
                             </div>
 
                             {/* 2. Central Laboratory Services */}
-                            <div className="group relative bg-white/5 backdrop-blur-xl rounded-[4rem] p-12 border border-white/5 hover:bg-white/10 hover:border-indigo-500/30 transition-all duration-700 flex flex-col">
+                            <div className="group relative bg-white/5 backdrop-blur-xl rounded-[4rem] p-8 md:p-12 border border-white/5 hover:bg-white/10 hover:border-indigo-500/30 transition-all duration-700 flex flex-col">
                                 <div className="w-20 h-20 mb-10 rounded-3xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 group-hover:bg-indigo-500 group-hover:text-slate-900 transition-all duration-500 shadow-xl">
                                     <Microscope className="w-10 h-10" />
                                 </div>
@@ -280,7 +280,7 @@ export default function Home() {
                             </div>
 
                             {/* 3. Biorepository */}
-                            <div className="group relative bg-white/5 backdrop-blur-xl rounded-[4rem] p-12 border border-white/5 hover:bg-white/10 hover:border-blue-500/30 transition-all duration-700 flex flex-col">
+                            <div className="group relative bg-white/5 backdrop-blur-xl rounded-[4rem] p-8 md:p-12 border border-white/5 hover:bg-white/10 hover:border-blue-500/30 transition-all duration-700 flex flex-col">
                                 <div className="w-20 h-20 mb-10 rounded-3xl bg-blue-500/10 flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-slate-900 transition-all duration-500 shadow-xl">
                                     <Database className="w-10 h-10" />
                                 </div>
@@ -398,7 +398,7 @@ export default function Home() {
                             </div>
 
                             {/* Enhanced Grid Container with Section Outline */}
-                            <div className="p-10 md:p-16 rounded-[4.5rem] bg-transparent border-none relative overflow-hidden group/container">
+                            <div className="p-6 md:p-16 rounded-[4.5rem] bg-transparent border-none relative overflow-hidden group/container">
                                 <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-cyan-500/5 blur-[120px] rounded-full"></div>
 
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
@@ -420,7 +420,7 @@ export default function Home() {
                                         return (
                                             <div
                                                 key={cap.id}
-                                                className={`p-10 rounded-[2.5rem] bg-slate-950/50 border border-white/5 hover:bg-slate-900 hover:border-cyan-500/30 transition-all duration-500 group animate-fade-in-up stagger-${(idx % 4) + 1} flex flex-col items-start gap-6 shadow-2xl relative overflow-hidden`}
+                                                className={`p-6 md:p-10 rounded-[2.5rem] bg-slate-950/50 border border-white/5 hover:bg-slate-900 hover:border-cyan-500/30 transition-all duration-500 group animate-fade-in-up stagger-${(idx % 4) + 1} flex flex-col items-start gap-6 shadow-2xl relative overflow-hidden`}
                                             >
                                                 <div className="absolute -inset-1 bg-gradient-to-tr from-cyan-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                                                 <div className="w-14 h-14 rounded-2xl bg-cyan-400 flex items-center justify-center text-slate-900 shadow-[0_0_20px_rgba(6,182,212,0.4)] group-hover:scale-110 transition-transform duration-500 relative z-10">
@@ -591,12 +591,12 @@ export default function Home() {
                     <div className="py-20 relative z-10">
                         <div className="max-w-[1700px] mx-auto px-6 md:px-12">
                             <div className="grid md:grid-cols-2 gap-12">
-                                <div className="p-16 md:p-24 rounded-[4rem] bg-gradient-to-br from-cyan-500/10 via-slate-900/50 to-transparent border border-white/5 backdrop-blur-3xl space-y-12 group hover:border-cyan-500/30 transition-all duration-700 relative overflow-hidden">
+                                <div className="p-8 md:p-24 rounded-[4rem] bg-gradient-to-br from-cyan-500/10 via-slate-900/50 to-transparent border border-white/5 backdrop-blur-3xl space-y-12 group hover:border-cyan-500/30 transition-all duration-700 relative overflow-hidden">
                                     <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 blur-[80px] rounded-full group-hover:bg-cyan-500/10 transition-colors"></div>
                                     <span className="text-cyan-400 font-black text-xs uppercase tracking-[0.5em] block animate-fade-in-up">Participants</span>
                                     <div className="space-y-6 animate-fade-in-up stagger-1">
-                                        <h3 className="text-5xl font-black text-white leading-[1.05] tracking-tighter">Interested in <br />a study?</h3>
-                                        <p className="text-2xl text-slate-400 font-medium leading-relaxed">Get paid. Get tested. <br />Contribute to breakthrough science.</p>
+                                        <h3 className="text-4xl md:text-5xl font-black text-white leading-[1.05] tracking-tighter">Interested in <br />a study?</h3>
+                                        <p className="text-xl md:text-2xl text-slate-400 font-medium leading-relaxed">Get paid. Get tested. <br />Contribute to breakthrough science.</p>
                                     </div>
                                     <div className="flex flex-wrap gap-6 pt-6 animate-fade-in-up stagger-2">
                                         <Link to="/trials" className="bg-cyan-500 text-slate-900 px-10 py-5 rounded-2xl font-black text-sm uppercase tracking-[0.2em] hover:bg-white hover:-translate-y-2 transition-all shadow-xl">Join Research</Link>
@@ -604,12 +604,12 @@ export default function Home() {
                                     </div>
                                 </div>
 
-                                <div className="p-16 md:p-24 rounded-[4rem] bg-gradient-to-br from-indigo-500/10 via-slate-900/50 to-transparent border border-white/5 backdrop-blur-3xl space-y-12 group hover:border-indigo-500/30 transition-all duration-700 relative overflow-hidden">
+                                <div className="p-8 md:p-24 rounded-[4rem] bg-gradient-to-br from-indigo-500/10 via-slate-900/50 to-transparent border border-white/5 backdrop-blur-3xl space-y-12 group hover:border-indigo-500/30 transition-all duration-700 relative overflow-hidden">
                                     <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/5 blur-[80px] rounded-full group-hover:bg-indigo-500/10 transition-colors"></div>
                                     <span className="text-indigo-400 font-black text-xs uppercase tracking-[0.5em] block animate-fade-in-up">Sponsors</span>
                                     <div className="space-y-6 animate-fade-in-up stagger-1">
-                                        <h3 className="text-5xl font-black text-white leading-[1.05] tracking-tighter">Need expert <br />research?</h3>
-                                        <p className="text-2xl text-slate-400 font-medium leading-relaxed">Need high-quality research, testing, or biorepository support?</p>
+                                        <h3 className="text-4xl md:text-5xl font-black text-white leading-[1.05] tracking-tighter">Need expert <br />research?</h3>
+                                        <p className="text-xl md:text-2xl text-slate-400 font-medium leading-relaxed">Need high-quality research, testing, or biorepository support?</p>
                                     </div>
                                     <div className="pt-6 animate-fade-in-up stagger-2">
                                         <Link to="/contact" className="bg-white text-slate-900 px-10 py-5 rounded-2xl font-black text-sm uppercase tracking-[0.2em] hover:bg-cyan-500 hover:-translate-y-2 transition-all shadow-xl inline-block">Start a Project</Link>

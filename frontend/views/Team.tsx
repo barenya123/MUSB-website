@@ -63,7 +63,7 @@ export default function Team() {
                         {teamMembers.map((member) => (
                             <div
                                 key={member.id}
-                                className="group bg-white/5 backdrop-blur-xl rounded-[2.5rem] p-8 border-2 border-white/10 hover:border-cyan-400/50 hover:bg-white/10 transition-all duration-500 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.5)]"
+                                className="group bg-white/5 backdrop-blur-xl rounded-[2.5rem] p-6 md:p-8 border-2 border-white/10 hover:border-cyan-400/50 hover:bg-white/10 transition-all duration-500 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.5)]"
                             >
                                 {/* Profile Header */}
                                 <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
